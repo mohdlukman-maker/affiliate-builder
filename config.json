@@ -1,0 +1,56 @@
+{
+  "marketplace": {
+    "name": "Shopee",
+    "searchHost": "shopee.com.my",
+    "country": "Malaysia",
+    "domains": ["shopee.com.my", "shopee.com", "shopee.sg", "shopee.co.id"],
+    "imageHosts": ["susercontent.com", "shopee", "cloudfront.net"],
+    "ctaLabel": "Lihat di Shopee",
+    "openLabel": "Buka Shopee"
+  },
+  "locale": {
+    "lang": "ms",
+    "acceptLanguage": "ms-MY,ms;q=0.9,en;q=0.8"
+  },
+  "copy": {
+    "brand": "Affiliate Pick",
+    "defaultTitle": "Produk Shopee Pilihan",
+    "defaultCategory": "Produk",
+    "disclosure": "Affiliate disclosure: halaman ini mungkin menerima komisen kecil daripada pembelian melalui pautan Shopee, tanpa kos tambahan kepada anda.",
+    "categories": [
+      {
+        "match": ["case", "phone", "iphone", "gadget"],
+        "eyebrow": "Aksesori harian",
+        "headline": "Pilihan yang mudah dibeli dan senang digunakan",
+        "benefits": [
+          "Semak model atau variasi sebelum beli.",
+          "Lihat gambar review untuk rupa sebenar.",
+          "Pilih warna dan gaya yang sesuai dengan penggunaan harian."
+        ],
+        "faq": "Untuk produk aksesori, pastikan model, saiz dan variasi yang dipilih memang tepat."
+      },
+      {
+        "match": ["home", "rumah", "organizer"],
+        "eyebrow": "Untuk rumah",
+        "headline": "Barang kecil yang boleh bantu susun ruang harian",
+        "benefits": [
+          "Sesuai untuk ruang kecil atau kegunaan harian.",
+          "Semak saiz sebenar sebelum beli.",
+          "Pilih warna dan bahan yang sesuai dengan ruang anda."
+        ],
+        "faq": "Untuk produk rumah, semak ukuran dan bahan dalam listing sebelum checkout."
+      },
+      {
+        "match": [],
+        "eyebrow": "Produk pilihan",
+        "headline": "Semak pilihan, harga dan review sebelum beli",
+        "benefits": [
+          "Sesuai untuk pembelian Shopee yang ringkas.",
+          "Semak harga semasa dan kos penghantaran.",
+          "Pilih penjual dengan rating yang anda selesa."
+        ],
+        "faq": "Baca penerangan penjual, variasi produk dan gambar review sebelum checkout."
+      }
+    ]
+  }
+}

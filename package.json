@@ -1,0 +1,21 @@
+{
+  "name": "affiliate-builder-ui",
+  "version": "1.2.0",
+  "description": "Local, self-contained UI for building one-page affiliate promo sites (configurable marketplace) and publishing them to Netlify.",
+  "private": false,
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/smoke.test.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "netlify-cli": "^26.2.0"
+  }
+}

@@ -46,8 +46,8 @@ control at all. Local-only repo by explicit user decision.
 
 ## Known risks
 
-- Local-only: no off-machine backup. Disk failure = project loss
-  (user accepted this for now).
+- ~~Local-only: no off-machine backup~~ resolved 2026-08-22:
+  pushed to private GitHub repo (remote-verified).
 - `.env` holds a real NETLIFY_AUTH_TOKEN (present on disk, correctly
   gitignored).
 

@@ -67,8 +67,9 @@ then runs too).
 
 ## Hard rules
 
-- **No remote, no push** without explicit user approval (local-only
-  decision 2026-08-22).
+- GitHub remote exists (private, added 2026-08-22): push verified
+  work to `origin main`; the repo stays **private** — no visibility
+  change without explicit user approval.
 - Destructive ops (`rm -rf`, `git reset --hard`, force anything) need
   explicit human authorization.
 - The Netlify token in `.env` is real — never print or commit it.
